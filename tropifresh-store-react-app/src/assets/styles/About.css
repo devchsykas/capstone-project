@@ -1,0 +1,117 @@
+.about-section {
+  padding: 32px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* Allow content to wrap for smaller screens */
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-right: 50px;
+  flex: 1;
+}
+
+.about-title {
+  font-family: "Syne", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: #3d5a23;
+  margin-bottom: 20px;
+}
+
+.about-subtitle {
+  font-family: "Syne", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #3d5a23;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #3d5a23;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+}
+
+/* Responsive Design */
+
+/* For Tablets */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-us {
+    margin-right: 0;
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .about-title {
+    font-size: 1.125rem; /* Adjust title font size for smaller screens */
+  }
+
+  .about-subtitle {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* For Mobile Screens */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .about-title {
+    font-size: 1rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .about-text {
+    font-size: 0.875rem;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}

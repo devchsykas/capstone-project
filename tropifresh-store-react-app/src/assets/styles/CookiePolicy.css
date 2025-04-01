@@ -1,0 +1,30 @@
+.cookie-policy-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.cookie-policy-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  color: #3d5a23;
+  font-weight: 700;
+}
+
+.cookie-policy-subtitle {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #3d5a23;
+  font-weight: 500;
+}
+
+.cookie-policy-text {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #3d5a23;
+  font-weight: 300;
+}

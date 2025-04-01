@@ -1,0 +1,122 @@
+.hero-section {
+  padding: 32px 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 900px; */
+}
+
+.hero-content {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 3.125rem;
+  line-height: 4rem;
+  color: #3d5a23;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #1e2b11;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #3d5a23;
+  color: #ffffff !important; /* Ensure text color is white */
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.cta-button:hover {
+  background-color: #ffffff;
+  color: #3d5a23 !important;
+  font-weight: 400;
+  border: 1px solid #3d5a23;
+}
+
+.hero-image {
+  max-width: 600px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Mobile Styles */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .cta-button {
+    align-self: center;
+    font-size: 1.125rem;
+    width: 180px;
+    height: 50px;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+
+  .cta-button {
+    width: 150px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .hero-text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
